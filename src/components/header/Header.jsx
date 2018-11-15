@@ -56,15 +56,19 @@ const Header = () => (
               <NavItem className="d-flex align-items-center">
                 <NavLink className="font-weight-bold" href="/chart">Charts</NavLink>
               </NavItem>
+
+              <NavItem className="d-flex align-items-center">
+                <NavLink className="font-weight-bold" href="/date">DatePicker</NavLink>
+              </NavItem>
               
               <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
                 <DropdownToggle className="font-weight-bold" nav caret>Learn</DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>Learn React</DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>Documentation</DropdownItem>
-                  <DropdownItem>Tutorials</DropdownItem>
-                  <DropdownItem>Courses</DropdownItem>
+                  <DropdownItem>I</DropdownItem>
+                  <DropdownItem>love</DropdownItem>
+                  <DropdownItem>peace</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               
